@@ -16,7 +16,7 @@ public class LoginDialog {
         t.setHeaderText("Velkomin/nn/ð aftur");
         t.setContentText("Lykilorð:");
 
-        Optional<String> utkoma = t.showAndWait();
+        Optional<String> outcome = t.showAndWait();
         // Birtum svarið á console með því að nota get()
         t.close();
     }

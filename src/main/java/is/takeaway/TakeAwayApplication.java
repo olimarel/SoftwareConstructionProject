@@ -12,7 +12,7 @@ public class TakeAwayApplication extends Application {
     public void start(Stage stage) throws IOException {
         var scene = new Scene(new Pane());
         ViewSwitcher.setScene(scene);
-        ViewSwitcher.switchTo(View.PONTUN);
+        ViewSwitcher.switchTo(View.ORDER);
         stage.setTitle("TakeAway");
         stage.setScene(scene);
         stage.show();

@@ -13,8 +13,7 @@ import java.util.Map;
  * <p>
  * EÞH - changed to include caching of controllers
  */
-public class
-ViewSwitcher {
+public class ViewSwitcher {
 
     private static final Map<View, Parent> cache = new HashMap<>();
 

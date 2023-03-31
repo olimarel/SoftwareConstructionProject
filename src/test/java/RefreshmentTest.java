@@ -2,14 +2,14 @@
 
 import org.junit.Before;
 import org.junit.Test;
-import vinnsla.Veitingar;
+import vinnsla.Refreshments;
 
-public class VeitingarTest {
-    private Veitingar veiting;
+public class RefreshmentTest {
+    private Refreshments veiting;
 
     @Before
     public void constructVeiting() {
-        veiting = new Veitingar("Margharita", 1500);
+        veiting = new Refreshments("Margharita", 1500);
     }
 
     @Test
@@ -19,17 +19,17 @@ public class VeitingarTest {
 
     @Test
     public void testGetVerd() {
-        assert veiting.getVerd() == 1500;
+        assert veiting.getPrice() == 1500;
     }
 
     @Test
     public void testGetVeiting() {
-        assert veiting.getVeiting().equals("Margharita");
+        assert veiting.getRefreshment().equals("Margharita");
     }
 
     @Test
     public void testVerdProperty() {
-        assert veiting.verdProperty().get() == 1500;
+        assert veiting.priceProperty().get() == 1500;
     }
 
 }

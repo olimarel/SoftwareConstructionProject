@@ -1,22 +1,22 @@
 import org.junit.Before;
 import org.junit.Test;
-import vinnsla.Karfa;
+import vinnsla.Basket;
 
-public class KarfaTest {
-    private Karfa karfa;
+public class BasketTest {
+    private Basket basket;
 
     @Before
     public void constructKarfa() {
-        karfa = new Karfa();
+        basket = new Basket();
     }
 
     @Test
     public void testHeildarverdProperty() {
-        assert karfa.HeildarVerdProperty().get() == 0;
+        assert basket.totalPriceProperty().get() == 0;
     }
 
     @Test
     public void testGetHeildarverd() {
-        assert karfa.getHeildarverd() == 0;
+        assert basket.getTotalPrice() == 0;
     }
 }
