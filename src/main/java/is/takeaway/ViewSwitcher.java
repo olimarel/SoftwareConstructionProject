@@ -24,6 +24,11 @@ public class ViewSwitcher {
         ViewSwitcher.scene = scene;
     }
 
+    /**
+     * switches the scene to the given view
+     *
+     * @param view the view to switch to
+     */
     public static void switchTo(View view) {
         if (scene == null) {
             System.out.println("No scene was set");
@@ -52,6 +57,12 @@ public class ViewSwitcher {
         }
     }
 
+    /**
+     * looksup the view for desired controller
+     *
+     * @param v
+     * @return the controller's scene
+     */
     public static Object lookup(View v) {
         return controllers.get(v);
     }

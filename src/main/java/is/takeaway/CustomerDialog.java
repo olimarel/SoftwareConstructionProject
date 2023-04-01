@@ -21,10 +21,10 @@ public class CustomerDialog extends Dialog<Customer> {
     /**
      * smiður fyrir dialog, hefur ýmsar hjálparaðfeðir, result converter skilar viðskiptavin hlut ef ýtt er á "í lagi"
      *
-     * @param v tómur viðskiptavinur sem við settum með smiðnum
+     * @param c tómur viðskiptavinur sem við settum með smiðnum
      */
-    public CustomerDialog(Customer v) {
-        customer = v;
+    public CustomerDialog(Customer c) {
+        customer = c;
         setDialogPane(readCustomerDialog());
         //iLagiRegla();
 
@@ -40,7 +40,7 @@ public class CustomerDialog extends Dialog<Customer> {
     }
 
     /**
-     * bindur textfieldin við viðskiptavin hlutina
+     * binds the textfields to the customer object
      */
     private void setPropertyBinding() {
         fxName.textProperty().bindBidirectional(customer.nameProperty());
@@ -48,7 +48,7 @@ public class CustomerDialog extends Dialog<Customer> {
     }
 
     /**
-     * hjálparaðferð til að les inn dialog
+     * reads in a dialog object
      *
      * @return
      */

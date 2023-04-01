@@ -8,8 +8,9 @@ public class Menu {
 
     /**
      * set aðferð til að populatea matsedillVIew listann
+     * set method to populate the MenuView list
      */
-    public void setjaGogn() {
+    public void setItems() {
         refreshments.add(new Refreshments("Margharita", 1500));
         refreshments.add(new Refreshments("Pizza Pepperoni", 1990));
         refreshments.add(new Refreshments("Hawaii", 1990));
@@ -23,7 +24,12 @@ public class Menu {
         refreshments.add(new Refreshments("Bjór af krana", 1500));
     }
 
-    public ObservableList<Refreshments> getVeitingar() {
+    /**
+     * getter for items in menu
+     *
+     * @return refreshments
+     */
+    public ObservableList<Refreshments> getRefreshments() {
         return refreshments;
     }
 }

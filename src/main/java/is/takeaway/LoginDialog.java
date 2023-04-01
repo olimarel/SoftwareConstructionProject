@@ -7,7 +7,7 @@ import java.util.Optional;
 public class LoginDialog {
 
     /**
-     * smíðar einfaldan textDialog ef viðskiptavinur er nú þegar nýskráður
+     * constructs a simple text dialog if customer is already signed up
      */
     public LoginDialog() {
         TextInputDialog t = new TextInputDialog();

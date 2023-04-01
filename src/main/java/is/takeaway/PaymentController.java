@@ -28,7 +28,7 @@ public class PaymentController implements Initializable {
     private IntegerProperty totalPrice = new SimpleIntegerProperty();
 
     /**
-     * handler fyrir staðfesta takka, tæmir einnig körfu
+     * handler for confirm button, empties basket when pressed
      *
      * @param actionEvent
      */
@@ -39,6 +39,11 @@ public class PaymentController implements Initializable {
 
     }
 
+    /**
+     * returns the user to the main menu
+     *
+     * @param actionEvent
+     */
     @FXML
     private void fxReturnHandler(ActionEvent actionEvent) {
         ViewSwitcher.switchTo(View.ORDER);

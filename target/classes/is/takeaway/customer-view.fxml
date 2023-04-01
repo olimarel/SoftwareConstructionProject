@@ -8,8 +8,8 @@
     <content>
         <AnchorPane prefHeight="160.0" prefWidth="203.0">
             <children>
-                <TextField fx:id="fxNafn" alignment="CENTER" layoutX="21.0" layoutY="31.0" promptText="Nafn"/>
-                <TextField fx:id="fxHeimilisf" alignment="CENTER" layoutX="21.0" layoutY="74.0"
+                <TextField fx:id="fxName" alignment="CENTER" layoutX="21.0" layoutY="31.0" promptText="Nafn"/>
+                <TextField fx:id="fxAddress" alignment="CENTER" layoutX="21.0" layoutY="74.0"
                            promptText="Heimilisfang"/>
                 <Label alignment="CENTER" layoutX="67.0" layoutY="-4.0" text="Nýskráning">
                     <padding>

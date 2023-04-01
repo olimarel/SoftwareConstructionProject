@@ -6,15 +6,18 @@ import vinnsla.Menu;
 import vinnsla.Refreshments;
 
 public class MenuView extends ListView<Refreshments> {
-    private Menu m;
+    private Menu menu;
 
+    /**
+     * constructor for the menu on main menu
+     */
     public MenuView() {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("order-view.fxml"));
         loader.setController(this);
         loader.setRoot(this);
 
-        m = new Menu();
-        m.setjaGogn();
-        setItems(m.getVeitingar());
+        menu = new Menu();
+        menu.setItems();
+        setItems(menu.getRefreshments());
     }
 }

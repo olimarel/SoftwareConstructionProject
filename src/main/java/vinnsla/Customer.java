@@ -8,19 +8,40 @@ public class Customer {
     private StringProperty address = new SimpleStringProperty();
 
 
-    public Customer(String name, String heimilisf) {
+    /**
+     * constructor for Customer
+     *
+     * @param name    name of customer
+     * @param address address of customer
+     */
+    public Customer(String name, String address) {
         this.name.set(name);
-        address.set(heimilisf);
+        address.set(address);
     }
 
+    /**
+     * getter for customer's name
+     *
+     * @return name
+     */
     public String getName() {
         return name.get();
     }
 
+    /**
+     * getter for customer nameProperty
+     *
+     * @return name
+     */
     public StringProperty nameProperty() {
         return name;
     }
 
+    /**
+     * getter for customer addressProperty
+     *
+     * @return address
+     */
     public StringProperty addressProperty() {
         return address;
     }

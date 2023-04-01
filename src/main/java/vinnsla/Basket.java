@@ -8,7 +8,7 @@ public class Basket extends Menu {
     private IntegerProperty totalPrice = new SimpleIntegerProperty();
 
     /**
-     * smiður fyrir Karfa, inniheldur changelistener sem uppfærir heildarverð körfu
+     * constructor for Basket, contains a changelistener that updates the total price of basket
      */
     public Basket() {
         refreshments.addListener((ListChangeListener<? super Refreshments>) c -> {
@@ -22,10 +22,20 @@ public class Basket extends Menu {
         });
     }
 
+    /**
+     * getter for totalprice propert
+     *
+     * @return totalPrice
+     */
     public IntegerProperty totalPriceProperty() {
         return totalPrice;
     }
 
+    /**
+     * getter for totalPrice int value
+     *
+     * @return totalPrice
+     */
     public int getTotalPrice() {
         return totalPrice.get();
     }

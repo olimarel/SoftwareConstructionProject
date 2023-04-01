@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import vinnsla.Menu;
+import vinnsla.Refreshments;
 
 public class MenuTest {
     private Menu menu;
@@ -8,12 +9,20 @@ public class MenuTest {
     @Before
     public void constructMatsedill() {
         menu = new Menu();
-        menu.setjaGogn();
+        menu.setItems();
     }
 
     @Test
-    public void testGetVeitingarSize() {
-        assert menu.getVeitingar().size() == 11;
+    public void testGetRefreshmentsSize() {
+        assert menu.getRefreshments().size() == 11;
+    }
+
+    @Test
+    public void testAddRefreshment() {
+        assert menu.getRefreshments().size() == 11;
+
+        menu.getRefreshments().add(new Refreshments("Coca Cola", 200));
+        assert menu.getRefreshments().size() == 12;
     }
 
 }

@@ -30,7 +30,7 @@ public class OrderController implements Initializable {
     private IntegerProperty totalPrice = new SimpleIntegerProperty();
 
     /**
-     * handler fyrir bæta við körfu takka, lætur einnig changelistener vita af breytingum
+     * handler for putting items in basket, notifies changelistener as well
      *
      * @param actionEvent
      */
@@ -38,9 +38,7 @@ public class OrderController implements Initializable {
     private void fxPutInBasketHandler(ActionEvent actionEvent) {
         Refreshments selected = menu.getSelectionModel().getSelectedItem();
         fxBasket.getItems().add(selected);
-
-        //bæta í Karfa klasann samhliða svo listener geti reiknað heildarverð
-        basket.getVeitingar().add(selected);
+        basket.getRefreshments().add(selected);
     }
 
     @FXML
@@ -48,11 +46,11 @@ public class OrderController implements Initializable {
         Refreshments selected = fxBasket.getSelectionModel().getSelectedItem();
         fxBasket.getItems().remove(selected);
 
-        basket.getVeitingar().remove(selected);
+        basket.getRefreshments().remove(selected);
     }
 
     /**
-     * handler fyrir innskráning takka, tékkar hvort notandi hefur nú þegar stofnað aðgang
+     * handler for log in button, checks if the user has already signed up
      *
      * @param actionEvent
      */
@@ -67,7 +65,7 @@ public class OrderController implements Initializable {
     }
 
     /**
-     * hjálparaðferð fyrir handler, opnar nýskráningar dialog
+     * helper-method for loginHandler, opens a sign up dialog
      */
     public void newCustomer() {
         customer = new Customer("", "");
@@ -77,7 +75,7 @@ public class OrderController implements Initializable {
     }
 
     /**
-     * tékkar hvort viðskiptavinur sé innskráður, ef true þá færir viðskiptavin yfir í greiðslusíðu
+     * checks if customer is logged in, if true then move the user to payment scene
      *
      * @param actionEvent
      */
@@ -95,18 +93,31 @@ public class OrderController implements Initializable {
         }
     }
 
+    /**
+     * getter for customer
+     *
+     * @return customer
+     */
     public Customer getCustomer() {
         return customer;
     }
 
+    /**
+     * getter for totalPrice property
+     *
+     * @return totalPrice
+     */
     public IntegerProperty totalPriceProperty() {
         return totalPrice;
     }
 
+    /**
+     * empties the user's basket
+     */
     public void emptyBasket() {
         fxBasket.getItems().clear();
     }
-
+    
     public void initialize(URL url, ResourceBundle resourceBundle) {
         basket = new Basket();
 
