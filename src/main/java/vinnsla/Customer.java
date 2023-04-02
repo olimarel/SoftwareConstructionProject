@@ -16,7 +16,7 @@ public class Customer {
      */
     public Customer(String name, String address) {
         this.name.set(name);
-        address.set(address);
+        this.address.set(address);
     }
 
     /**

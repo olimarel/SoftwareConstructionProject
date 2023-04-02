@@ -3,7 +3,7 @@ module is.takeaway {
     requires javafx.fxml;
 
 
-    opens is.takeaway to javafx.fxml;
-    exports is.takeaway;
+    opens vidmot to javafx.fxml;
+    exports vidmot;
     exports vinnsla;
 }

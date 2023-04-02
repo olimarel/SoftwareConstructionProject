@@ -1,13 +1,14 @@
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/module-info.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/MatsedillView.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/VidskiptavinurDialog.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/vinnsla/Karfa.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/View.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/LoginDialog.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/vinnsla/Vidskiptavinur.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/vinnsla/Veitingar.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/ViewSwitcher.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/GreidslaController.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/TakeAwayApplication.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/vinnsla/Matsedill.java
-/Users/oli/Desktop/Tölvur, stýrikerfi og tölvufærni/Test/SoftwareConstructionProject/src/main/java/is/takeaway/PontunController.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/TakeAwayApplication.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vinnsla/Basket.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/module-info.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vinnsla/Customer.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/View.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vinnsla/Refreshments.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/Main.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/OrderController.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vinnsla/Menu.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/LoginDialog.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/ViewSwitcher.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/CustomerDialog.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/MenuView.java
+/Users/oli/Desktop/Hugbunadarahonnun/SoftwareConstructionProject/src/main/java/vidmot/PaymentController.java
