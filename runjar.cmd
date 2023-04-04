@@ -1,1 +1,1 @@
-java -cp target/takeaway-1.0-SNAPSHOT.jar vidmot.Main
+java -cp target/dependency/javafx-base-19.jar:target/dependency/javafx-base-19-mac.jar:javafx-controls-19.jar:javafx-controls-19-mac.jar:javafx-fxml-19.jar:javafx-fxml-19-mac.jar:javafx-graphics-19.jar:javafx-graphics-19-mac.jar:target/takeaway-1.0-SNAPSHOT.jar vidmot.Main
