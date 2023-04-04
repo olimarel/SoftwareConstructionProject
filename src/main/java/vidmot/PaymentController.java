@@ -57,7 +57,7 @@ public class PaymentController implements Initializable {
 
         fxDelivery.setText("Áætlaður afhendingartími er: " + n + " mínútur");
 
-        //bindum heimiisfangið við viðskiptavin hlutinn í pöntun controller
+        //bindum heimilisfangið við viðskiptavin hlutinn í pöntun controller
         custAddress.bind(orderController.getCustomer().addressProperty());
         fxPaymentAddress.textProperty().bind(custAddress);
 
