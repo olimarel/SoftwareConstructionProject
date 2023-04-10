@@ -9,6 +9,10 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 * Klára UML class diagram
 * Láta jar skrárnar virka (done)
 * Finna út úr Design Pattern
+* hmm erum við með þetta?...but also mention where a pattern is used, but also some end-user documentation, e.g., on how to run your jar.
+*  hmm erum við með þetta?...you either need to
+add for each dependency a separate jar file or let Maven create a fat jar that contains
+all dependencies using the maven-assembly-plugin
 
 ## Maven:
 
