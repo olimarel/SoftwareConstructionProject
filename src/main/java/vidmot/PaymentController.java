@@ -24,7 +24,7 @@ public class PaymentController implements Initializable {
     private Label fxConfirmation;
 
     private OrderController orderController;
-    private StringProperty custAddress = new SimpleStringProperty();
+    private StringProperty customerAddress = new SimpleStringProperty();
     private IntegerProperty totalPrice = new SimpleIntegerProperty();
 
     /**
@@ -57,11 +57,11 @@ public class PaymentController implements Initializable {
 
         fxDelivery.setText("Áætlaður afhendingartími er: " + n + " mínútur");
 
-        //bindum heimilisfangið við viðskiptavin hlutinn í pöntun controller
-        custAddress.bind(orderController.getCustomer().addressProperty());
-        fxPaymentAddress.textProperty().bind(custAddress);
+        //binds the address to the customer thing in OrderController
+        customerAddress.bind(orderController.getCustomer().addressProperty());
+        fxPaymentAddress.textProperty().bind(customerAddress);
 
-        //bindum svo heildarverðið við heildarverðið í pöntuncontroller
+        //binds the totalPrice to the total price in PontunController
         totalPrice.bind(orderController.totalPriceProperty());
         fxPaymentTotalPrice.textProperty().bind(totalPrice.asString());
     }

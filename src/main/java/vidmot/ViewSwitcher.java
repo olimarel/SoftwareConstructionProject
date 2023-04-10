@@ -58,7 +58,7 @@ public class ViewSwitcher {
     }
 
     /**
-     * looksup the view for desired controller
+     * looks up the view for desired controller
      *
      * @param v
      * @return the controller's scene

@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="takeaway" />
-        <module name="SoftwareConstructionProject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SoftwareConstructionProject" target="19" />
       <module name="TakeAway" target="19" />
     </bytecodeTargetLevel>
   </component>

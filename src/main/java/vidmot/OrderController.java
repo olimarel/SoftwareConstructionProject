@@ -41,6 +41,11 @@ public class OrderController implements Initializable {
         basket.getRefreshments().add(selected);
     }
 
+    /**
+     * handler for removing items from basket, notifies changelistener as well
+     *
+     * @param actionEvent
+     */
     @FXML
     private void fxRemoveFromBasketHandler(ActionEvent actionEvent) {
         Refreshments selected = fxBasket.getSelectionModel().getSelectedItem();
@@ -112,7 +117,7 @@ public class OrderController implements Initializable {
     }
 
     /**
-     * empties the user's basket
+     * function that empties the user's basket
      */
     public void emptyBasket() {
         fxBasket.getItems().clear();

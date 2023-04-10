@@ -19,14 +19,13 @@ public class CustomerDialog extends Dialog<Customer> {
     private Customer customer;
 
     /**
-     * smiður fyrir dialog, hefur ýmsar hjálparaðfeðir, result converter skilar viðskiptavin hlut ef ýtt er á "í lagi"
+     * Constructor for dialog, has some helpful functions and the result converter returns a Customer object if "í lagi" is pressed.
      *
-     * @param c tómur viðskiptavinur sem við settum með smiðnum
+     * @param c a customer
      */
     public CustomerDialog(Customer c) {
         customer = c;
         setDialogPane(readCustomerDialog());
-        //iLagiRegla();
 
         setPropertyBinding();
 
