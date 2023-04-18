@@ -4,20 +4,21 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 
 ## To do:
 
-* Renna yfir forrit og athuga hvort öll breytuheiti eru á ensku (done)
-* Gera javadoc fyrir hvert fall (done)
-* Klára UML class diagram
-* Láta jar skrárnar virka (done) 
-* Finna út úr Design Pattern (done)
-* hmm erum við með þetta?...but also mention where a pattern is used, but also some end-user documentation, e.g., on how to run your jar.
+* Renna yfir forrit og athuga hvort öll breytuheiti eru á ensku (DONE)
+* Gera javadoc fyrir hvert fall (DONE)
+* Klára UML class diagram (DONE)
+* Láta jar skrárnar virka (done) virkar ekki hja mér?
+* Finna út úr Design Pattern (DONE)
+* 
 * endUserDocumentation? ég bætti við howtorunjar en veit ekki hvort þurfi eh meira?
-* þurfum við pom dæmið úr verkefni 10?
+* þurfum við pom dæmið úr verkefni 10? setti það inn
 
 ## Maven:
 
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends
   with `Test`, `Tests`, or `TestCase`).
+- PÆLING HVORT VIÐ ÞURFUM MEIRA HÉR? exec:java, package, site
 
 ## UML Class diagram:
 
@@ -35,7 +36,6 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
   supported, license and end user documentation, e.g how to run jar file (hmm við erum ekki með how to run a jar file??)
 
 ## Design patterns:
-
 Uses the observer pattern on multiple occasions. Creating changelisteners and observable properties and list that are
 bound together. hmmm það er bara einu sinni, þurfum við að bæta við verkefnið?
 
@@ -45,7 +45,6 @@ The design pattern in the project explained [here](DesignPattern)
 [License link](LICENSE)
 
 ## How to run the jar file
-
 To run the jar file you go in the terminal and type in runjar.cmd and enter. You might have to write source before, i.e. source runjar.cmd.
 
 ## Pom.xml
