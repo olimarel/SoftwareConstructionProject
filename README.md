@@ -7,9 +7,10 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 * Renna yfir forrit og athuga hvort öll breytuheiti eru á ensku (done)
 * Gera javadoc fyrir hvert fall (done)
 * Klára UML class diagram
-* Láta jar skrárnar virka (done)
+* Láta jar skrárnar virka (done) 
 * Finna út úr Design Pattern (done)
 * hmm erum við með þetta?...but also mention where a pattern is used, but also some end-user documentation, e.g., on how to run your jar.
+* endUserDocumentation? ég bætti við howtorunjar en veit ekki hvort þurfi eh meira?
 
 ## Maven:
 
