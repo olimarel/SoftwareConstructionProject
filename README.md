@@ -7,12 +7,11 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 * Renna yfir forrit og athuga hvort öll breytuheiti eru á ensku (done)
 * Gera javadoc fyrir hvert fall (done)
 * Klára UML class diagram
-* Láta jar skrárnar virka (done)
-* Finna út úr Design Pattern
+* Láta jar skrárnar virka (done) 
+* Finna út úr Design Pattern (done)
 * hmm erum við með þetta?...but also mention where a pattern is used, but also some end-user documentation, e.g., on how to run your jar.
-*  hmm erum við með þetta?...you either need to
-add for each dependency a separate jar file or let Maven create a fat jar that contains
-all dependencies using the maven-assembly-plugin
+* endUserDocumentation? ég bætti við howtorunjar en veit ekki hvort þurfi eh meira?
+* þurfum við pom dæmið úr verkefni 10?
 
 ## Maven:
 
@@ -29,11 +28,11 @@ all dependencies using the maven-assembly-plugin
 * Git (done)
 * Maven (done)
 * Junit tests for backend (done)
-* Design patterns
+* Design patterns (done semi, bara spurning hvort við þurfum að bæta eh við því við erum bara með einn listener)
 * Refactoring for self explaining code (done)
 * Packaged jar file and command provided
 * Documentation, UML design needs to be a part of it, also mention where a pattern is used, what maven goals are
-  supported, license and end user documentation, e.g how to run jar file
+  supported, license and end user documentation, e.g how to run jar file (hmm við erum ekki með how to run a jar file??)
 
 ## Design patterns:
 
@@ -44,3 +43,7 @@ The design pattern in the project explained [here](DesignPattern)
 
 ## License
 [License link](LICENSE)
+
+## How to run the jar file
+
+To run the jar file you go in the terminal and type in runjar.cmd and enter. You might have to write source before, i.e. source runjar.cmd.
