@@ -4,6 +4,8 @@ We already have a design pattern in the project, a observer design pattern.
 	it is what is observed, i.e. it is observable. And then in the Basket class in the same
 	package we have, in the constructor of that class, a listener that is an observer and it
 	observes the list in Menu, i.e. it observes and knows everything in the list, refreshments.
+	So in the Basket class we add a listener to the refreshments list with addListener that then
+	observes the list refreshments from Menu. The listener is ListChangeListener<? super Refreshments>.
 	If an extra refreshment were to be added to the list in Menu, then the listener (observer)
 	observes it (i.e. knows it has been added). So there a observer design pattern has already
 	been implemented so there is no need to add anything else in.
