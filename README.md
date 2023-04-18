@@ -47,3 +47,6 @@ The design pattern in the project explained [here](DesignPattern)
 ## How to run the jar file
 
 To run the jar file you go in the terminal and type in runjar.cmd and enter. You might have to write source before, i.e. source runjar.cmd.
+
+## Pom.xml
+The pom.xml supports to execute the main file
