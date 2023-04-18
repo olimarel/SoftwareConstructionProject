@@ -11,6 +11,7 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 * Finna út úr Design Pattern (done)
 * hmm erum við með þetta?...but also mention where a pattern is used, but also some end-user documentation, e.g., on how to run your jar.
 * endUserDocumentation? ég bætti við howtorunjar en veit ekki hvort þurfi eh meira?
+* þurfum við pom dæmið úr verkefni 10?
 
 ## Maven:
 
