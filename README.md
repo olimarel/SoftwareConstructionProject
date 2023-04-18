@@ -39,7 +39,7 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 Uses the observer pattern on multiple occasions. Creating changelisteners and observable properties and list that are
 bound together. hmmm það er bara einu sinni, þurfum við að bæta við verkefnið?
 
-The design pattern in the project explained [here](DesignPattern)
+The project has observer design pattern, explained further [here](DesignPattern)
 
 ## License
 [License link](LICENSE)
