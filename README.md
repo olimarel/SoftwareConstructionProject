@@ -8,11 +8,8 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 * Gera javadoc fyrir hvert fall (done)
 * Klára UML class diagram
 * Láta jar skrárnar virka (done)
-* Finna út úr Design Pattern
+* Finna út úr Design Pattern (done)
 * hmm erum við með þetta?...but also mention where a pattern is used, but also some end-user documentation, e.g., on how to run your jar.
-*  hmm erum við með þetta?...you either need to
-add for each dependency a separate jar file or let Maven create a fat jar that contains
-all dependencies using the maven-assembly-plugin
 
 ## Maven:
 
@@ -29,11 +26,11 @@ all dependencies using the maven-assembly-plugin
 * Git (done)
 * Maven (done)
 * Junit tests for backend (done)
-* Design patterns
+* Design patterns (done semi, bara spurning hvort við þurfum að bæta eh við því við erum bara með einn listener)
 * Refactoring for self explaining code (done)
 * Packaged jar file and command provided
 * Documentation, UML design needs to be a part of it, also mention where a pattern is used, what maven goals are
-  supported, license and end user documentation, e.g how to run jar file
+  supported, license and end user documentation, e.g how to run jar file (hmm við erum ekki með how to run a jar file??)
 
 ## Design patterns:
 
