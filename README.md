@@ -38,7 +38,9 @@ all dependencies using the maven-assembly-plugin
 ## Design patterns:
 
 Uses the observer pattern on multiple occasions. Creating changelisteners and observable properties and list that are
-bound together.
+bound together. hmmm það er bara einu sinni, þurfum við að bæta við verkefnið?
+
+The design pattern in the project explained [here](DesignPattern)
 
 ## License
 [License link](LICENSE)
