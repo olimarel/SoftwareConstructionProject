@@ -49,4 +49,4 @@ The design pattern in the project explained [here](DesignPattern)
 To run the jar file you go in the terminal and type in runjar.cmd and enter. You might have to write source before, i.e. source runjar.cmd.
 
 ## Pom.xml
-`pom.xml supports to execute the main file
+`pom.xml` supports to execute the main file
