@@ -4,10 +4,11 @@ Final project in HBV202G hugbúnaðarhönnun og forritun
 
 ## Description:
 
-This is a takeaway ordering Application developed using
-Java and JavaFX framworks. It allows the user to place an
-order, provide the necessary personal information and simulates a paying method as well.
-This project was initially created in HBV201G Viðmótsforritun but necessary changes were made for this class.
+This is a takeaway food order system developed using
+Java and JavaFX frameworks. It allows the user to place an
+order, provide the necessary personal information and simulate a payment process as well.
+This project was initially created in HBV201G Viðmótsforritun but necessary changes were made for HBV202G
+Hugbúnaðarhönnun og forritun.
 
 ## Running the project
 
@@ -33,6 +34,8 @@ You can run the project using various methods:
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends
   with `Test`, `Tests`, or `TestCase`).
+- `mvn package` packages a jar file and executable jar file
+- `mvn site`
 - PÆLING HVORT VIÐ ÞURFUM MEIRA HÉR? exec:java, package, site
 
 ## UML Class diagram:
@@ -52,9 +55,6 @@ You can run the project using various methods:
 
 ## Design patterns:
 
-Uses the observer pattern on multiple occasions. Creating changelisteners and observable properties and list that are
-bound together. hmmm það er bara einu sinni, þurfum við að bæta við verkefnið?
-
 The project has observer design pattern, explained further [here](DesignPattern)
 
 ## License
@@ -63,7 +63,10 @@ The project has observer design pattern, explained further [here](DesignPattern)
 
 ## How to run the jar file
 
-To run the jar file, type: `source runjar.cmd`.
+To run the jar file:
+
+1. run: `mvn clean package`
+2. run the prompt command: `source runjar.cmd`.
 
 ## Pom.xml
 
