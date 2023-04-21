@@ -24,6 +24,7 @@ You can run the project using various methods:
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends
   with `Test`, `Tests`, or `TestCase`).
 - `mvn package` packages a jar file and executable jar file
+- `mvn exec:java` runs the project
 
 ## UML Class diagram:
 
