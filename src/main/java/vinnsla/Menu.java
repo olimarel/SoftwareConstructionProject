@@ -7,7 +7,6 @@ public class Menu {
     protected ObservableList<Refreshments> refreshments = FXCollections.observableArrayList();
 
     /**
-     * set aðferð til að populatea matsedillVIew listann
      * set method to populate the MenuView list
      */
     public void setItems() {
